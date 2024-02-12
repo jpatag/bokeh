@@ -1,3 +1,13 @@
+'''
+A basic freehand drawing tool. This example demonstraets different ways
+to implement tools in Bokeh. In this context, this tool allows the user
+to freehand draw on a plot and save the resulting plot as a PNG file.
+
+.. bokeh-examples-metadata::
+    :apis: bokeh.models, bokeh.plotting.figure.line, bokeh.plotting.show
+    :keywords: draw, freehand, tool
+'''
+
 from bokeh.models import FreehandDrawTool
 from bokeh.plotting import figure, show
 

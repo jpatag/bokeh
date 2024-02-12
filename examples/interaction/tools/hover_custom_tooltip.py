@@ -1,3 +1,13 @@
+'''
+A 2-D coordinate plot that demonstrates custom tooltips and notes
+attached to various dots on the graph. This example demonstrates
+how customizable points are on graphs.
+
+.. bokeh-example-metadata::
+    :apis: bokeh.models.ColumnDataSource, bokeh.plotting.figure, bokeh.plotting.show
+    :keywords: custom, tooltip, hover, point, plot
+'''
+
 from bokeh.models import ColumnDataSource
 from bokeh.plotting import figure, show
 
